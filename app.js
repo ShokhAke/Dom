@@ -44,9 +44,16 @@
 // const title = document.getElementById('title')
 // title.innerHTML = '<i> New Text </i>'
 
-const ismlar = ['Shokhjahon', 'Yolgizbek', 'Shokh Ake'];
-const ol = document.querySelector('ol')
+// const ismlar = ['Shokhjahon', 'Yolgizbek', 'Shokh Ake'];
+// const ol = document.querySelector('ol');
 
-ismlar.forEach((ism) => {
-    ol.innerHTML += `<li>${ism}</li>`
-})
+// ismlar.forEach((ism) => {
+//     ol.innerHTML += `<li>${ism}</li>`
+// });
+
+// const harflar = ['S', 'h', 'o', 'k', 'h', 'j', 'a', 'h', 'o', 'n'];
+// const text = document.querySelector('.text')
+
+// harflar.forEach((harf) => {
+//     text.innerHTML += `<span>${harf}</span>`
+// });

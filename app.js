@@ -57,3 +57,55 @@
 // harflar.forEach((harf) => {
 //     text.innerHTML += `<span>${harf}</span>`
 // });
+
+// const input = document.getElementById('username');  // Element qiymatini o'zgartirish
+// // input.value = 'Shokh_Ake';
+// input.placeholder = 'Yangi placeholder' // Placeholder o'zgartirish
+
+// const title = document.querySelector('#title') 
+// title.innerHTML = '<i>Shokh Ake</i>'; // Element tanasini o'zgartirish
+
+
+     
+            // setAttribute & getAttribute !!!
+
+// const link = document.querySelector('a');
+// console.log(link.getAttribute('href'));  // Attribute ni tanlab oladi
+
+// link.setAttribute('href', 'https://youtube.com')  // Attribute ni o'zgartirish | yangi attribute o'rnatadi
+// link.textContent = 'Go To Youtube Main Page';
+
+// const text = document.querySelector('p');
+// console.log(text.getAttribute('class'));
+
+// text.setAttribute('class', 'new-class')
+
+// text.setAttribute('style', 'color: green;')
+
+
+
+            // CSS stylelarini o'zgartirish
+            
+// const heading = document.querySelector('h1')
+// // heading.setAttribute('style', 'margin: 50px;')   // Bunda faqat o'zgartirib bulgani uchun margin qushilganiga html da berilgan color uchib ketyabdi
+// console.log(heading.style);
+// heading.style.textAlign = 'center'  // Style berish | Qo'shimcha sifatida qo'shadi
+// heading.style.margin = '100px'
+// heading.style.color = 'red'
+// heading.style.fontSize = '50px'
+// heading.style.margin = ''  // Marginni 0 ga tenglab qo'yish
+
+// const body = document.querySelector('body')
+// body.style.background = '#333'
+
+
+
+        // Element yaratish && Element qo'shish && Element o'chirish !!!
+    // Element yaratish
+// const paragraph = document.createElement('p');  // Htmlda yo'q elementni yaratish
+// console.log(paragraph);
+
+// const text = document.createTextNode("Bu yerda text bor");  // Faqatgina textni o'zini yaratish
+// console.log(text);
+
+    // Element qo'shish !  Yaratilgan elementni DOM ga qo'shish
